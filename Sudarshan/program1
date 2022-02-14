@@ -1,1 +1,19 @@
 
+#Logic to remove all duplicates.
+
+x = n
+for(i=0; i<=x; i++)
+{
+  for(j=(i+1); j<=x; j++)
+  {
+    if(a[i] == a[j])
+    {
+      for(k=j; k<=x-1; k++)
+      {
+        a[k] = a[k+1];
+      }
+      x--
+      j--
+    }
+  }
+}
