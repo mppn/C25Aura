@@ -1,7 +1,4 @@
-#include <stdio.h>
 
-int main()
-{
 int i,j,n=5;
 int a[5]={2,3,5,3,5};
 {
@@ -19,5 +16,4 @@ int a[5]={2,3,5,3,5};
     }
    
 }
-    return 0;
-}
+    
