@@ -1,0 +1,16 @@
+
+  int i,j,k;
+ int a[2][2],b[2][2],c[2][2];
+int p=2,q=2,m=2;
+for(i=0;i<p;i++)
+ { 
+   for(j=0;j<c;j++)
+    {
+     c[i][j]=0;
+     for(k=0;k<m;k++)
+       {
+       C[i][j]=c[i][j]+a[i][k]*b[k][j];
+             printf(c[i][j]);
+       }
+     }
+ }
