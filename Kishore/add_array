@@ -1,0 +1,14 @@
+int a[2][2],b[2][2],c[2][2];
+
+    int i,j,r,c;
+
+   for(i=0;i<r;i++)
+    {
+      for(j=0;j<c;j++)
+      {
+      c[i][j]=a[i][j]+b[i][j];
+      printf(c[i][j]);
+      }
+     printf("\n" );
+    }
+     
