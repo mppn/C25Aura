@@ -1,0 +1,6 @@
+int Rtoupper(int c){
+  if(c>=97 && c<=122){
+    r=c+30;
+    return r;
+  }
+}
