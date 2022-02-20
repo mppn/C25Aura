@@ -1,0 +1,9 @@
+void strcopy(char *x, char *y,int n)
+{
+    int i;
+    for(i=0;i<=n;i++)
+    {
+        y[i]=x[i];
+    }
+    y[i]='\0';
+}
