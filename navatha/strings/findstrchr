@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <string.h>
+int findIndex(char[],int);
+
+int main()
+{
+    int ind;
+    char s1[120]="Ride next";
+    int ch='m';
+    ind=findIndex(s1,ch);
+    if(ind==-1)
+        printf("character not found");
+    else
+        printf("\nchar %c is found at Index : %d",(char) ch,ind);
+    printf("\n");
+    return 0;
+}
+
+int findIndex(char *x, int ch)
+{
+   int i,flag=0;
+    for(i=0;i<strlen(x);i++)
+    {
+        if(x[i]==(char)ch)
+        {
+            flag=1;
+            break;
+        }
+    }
+    if(flag==1)
+        return i;
+    else
+        return -1;
+ }
