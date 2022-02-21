@@ -1,0 +1,24 @@
+rw = 3
+middle=rw / 2;
+i = middle;
+j=0;
+for(k=1; k<= rw*rw; k++)
+{
+  magic[j][i] = k;
+  m = j--;
+  n = i++;
+  if(j< 0)
+  {
+     j = rw-1;
+  }
+  if(i>rw-1)
+  {
+     i=0;
+   }
+
+   if(magic[j][i] != 0)
+   {
+      i = n;
+      j = m+1;
+   }
+}
