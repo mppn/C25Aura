@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+
+char to_upper(char *s)
+{
+        int i;
+//      char result;
+              printf("in function");
+
+                for(i=0;s[i]!='\0';i++)
+                {
+                if((s[i]>='A')&&(s[i]<='Z'))
+                {
+                  s[i]-=32;
+                  printf("\n%c\n",s[i]);
+                }
+                }
+
+//      return result;
+        }
+
+int main()
+{
+int result;
+char str1[10] = "hello";
+char str2[10]="hello";
+
+
+     to_upper(str1);
+
+
+
+
+}
