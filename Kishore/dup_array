@@ -1,0 +1,26 @@
+int i,j,k;
+    int p=5;
+    int a[20]={2,3,4,3,5};
+    for(i=0;i<p;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<p;i++)
+    {
+        for(j=i+1;j<p;j++)
+        {
+            if(a[i]==a[j])
+            {
+                for(k=j;k<p-1;k++)
+                {
+                    a[k]=a[k+1];
+                }
+                s--;
+                j--;
+            }
+        }
+    }
+    for(i=0;i<p;i++)
+    {
+        printf("%d",a[i]);
+    }
