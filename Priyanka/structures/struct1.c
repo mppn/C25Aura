@@ -11,4 +11,6 @@ int main()
     printf("%ld",sizeof(s1));
     printf("%ld",sizeof(s1.id));
     printf("%ld",sizeof(s1.age));
+    printf("%ld",&s1.id);
+    printf("%ld",&s1.age);
 }
