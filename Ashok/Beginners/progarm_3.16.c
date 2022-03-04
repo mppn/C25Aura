@@ -7,7 +7,7 @@ int first()
         y=1;
          t=5;
        int  space=0;
-        for(i=1;i<=n;i++)
+        for(i=1;i<=n-2;i++)
          {
                  for(j=1;j<=x;j++)
                  {
