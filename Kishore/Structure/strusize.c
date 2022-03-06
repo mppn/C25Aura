@@ -15,5 +15,5 @@ int main()
     printf("%ld\n",sizeof(emp1.empid));
     printf("%ld\n",sizeof(emp1.name));
     printf("%ld\n",sizeof(emp1.sal));
-    return 0;
+    
 }
