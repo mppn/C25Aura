@@ -6,6 +6,7 @@ void delallnodes()
         temp=head;
         head=head->next;
         free(temp);
+        temp = NULL;
     }
     printf("all nodes deleted\n");
 }
