@@ -14,5 +14,5 @@ int main()
     printf("%d\n",emp1.rollno);
     printf("%s\n",emp1.name);
     printf("%f\n",emp1.marks);
-    return 0;
+   
 }
