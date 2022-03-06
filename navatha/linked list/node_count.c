@@ -4,7 +4,7 @@ void dump_list()
     int count=0;
     for(t=head;t!=NULL;t=t->next)
         {
-            printf("Data = %d\n", t->data); 
-            count++; 
+           count++; 
         }
+    printf("\nTotal no. of nodes is %d\n",count);
 }
