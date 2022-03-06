@@ -22,5 +22,5 @@ int main()
     printf("%p\n",&emp1.age);
     printf("%p\n",&emp1.sal);
     
-    return 0;
+    
 }
