@@ -1,6 +1,6 @@
 int bit_or(int a, int b)
 {
     int z;
-    z=~(~x&~y);
+    z=~(~a&~b);
     return z;
 }
