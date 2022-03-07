@@ -1,10 +1,13 @@
 char *rIndex(char *x, int ch)
 {
-  char *i=0;
-    if(*x!='\0')
+  char *y=x;
+    while(*x!='\0')
     {
+        if(*x==(char)ch)
+        {
+            y=x;
+        }
         x++;
-        i++;
     }
-    return i;
+    return y;
 }
